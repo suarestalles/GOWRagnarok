@@ -1,0 +1,71 @@
+.subtitle{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+.subtitle span{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-left: 1.5rem;
+}
+h1{
+    font-weight: 700;
+    font-size: 12.4rem;
+    line-height: 97.5%;
+}
+h2{
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 130%;
+}
+p{
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+    color: #BDC2CB;
+}
+.cards-personage{
+    width: 100%;
+    max-width: 38.4rem;
+}
+.cards-personage .image{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 48rem;
+    margin-bottom: 2.4rem;
+}
+.cards-personage .image img{
+    transition: .5s;
+}
+.cards-personage .image button{
+    position: absolute;
+    padding: 1.8rem 3.6rem;
+    background: #3265EA;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    bottom: 0;
+    opacity: 0;
+    transition: .5s;
+}
+.cards-personage .info h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: .7rem;
+}
+.cards-personage .info span{
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+.image:hover button{
+    opacity: 1;
+    bottom: 5.7rem;
+}.image:hover img{
+    transform: scale(1.1);
+}

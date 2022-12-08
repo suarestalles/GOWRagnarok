@@ -1,0 +1,214 @@
+.s-hero{
+    padding-top: 16.4rem;
+    padding-bottom: 10.3rem;
+    background-image: url("../assets/bg-hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80rem;
+}
+.s-hero .container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.s-hero .left{
+    width: 100%;
+    max-width: 78.2rem;
+}
+.s-hero .left h1{
+    margin-top: 2.4rem;
+    margin-bottom: 1.8rem;
+}
+.s-hero .left p{
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 140%;
+    color: #fff;
+    margin-bottom: 4rem;
+}
+.s-hero .left .value{
+    display: flex;
+}
+.s-hero .left .value strong{
+    padding: 1.8rem 3.6rem;
+    background: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #000;
+}
+.s-hero .left .value a{
+    display: block;
+    padding: 1.8rem 3.6rem;
+    background: #3265EA;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    color: #fff;
+}
+.s-hero .right{
+    position: relative;
+    top: 9.7rem;
+    width: 100%;
+    max-width: 44.3rem;
+}
+.s-hero .right span{
+    display: block;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 2.3rem;
+}
+.s-hero .right button{
+    position: relative;
+    width: 100%;
+    height: 24.7rem;
+    border: solid .2rem #3265EA;
+    overflow: hidden;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .25);
+    margin-bottom: 5.1rem;
+}
+.s-hero .right button .thumbnail{
+    width: 100%;
+}
+.s-hero .right button .play{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 3.2rem;
+}
+.s-hero .right .year-old{
+    display: flex;
+    align-items: center;
+}
+.s-hero .right .year-old span{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    max-width: 27.4rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+.s-info-geral{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+.s-info-geral .container{
+    display: block;
+}
+.s-info-geral ul{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.s-info-geral ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s-info-geral ul li span{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
+    color: #BDC2CB;
+    margin-top: 1.2rem;
+}
+.s-history{
+    width: 100%;
+    padding-top: 16rem;
+    padding-bottom: 8rem;
+    background-image: url("../assets/bg-story.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.s-history .container{
+    display: flex;
+    align-items: center;
+}
+.s-history .left{
+    width: 100%;
+    max-width: 62.9rem;
+    margin-top: 6.1rem;
+}
+.s-history .left h2{
+    margin-top: 2.8rem;
+    margin-bottom: 2.4rem;
+    max-width: 50.2rem;
+}
+.s-history .left p{
+    margin-bottom: 5.6rem;
+}
+.s-history .left .corp{
+    display: flex;
+    align-items: center;
+}
+.s-history .left .corp p{
+    margin-bottom: 0;
+    margin-left: 4.6rem;
+    font-size: 1.6rem;
+    line-height: 160%;
+    max-width: 32.4rem;
+}
+.s-history .kratos-atreus{
+    position: relative;
+    left: -6.8rem;
+    top: 1.3rem;
+}
+.s-character{
+    padding-top: 17.6rem;
+    padding-bottom: 14.3rem;
+    background-image: url(../assets/bg-characters.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.s-character .container{
+    display: block;
+}
+.s-character .description{
+    display: flex;
+    justify-content: space-between;
+}
+.s-character .description .left{
+    width: 100%;
+    max-width: 61.2rem;
+}
+.s-character .description .left h2{
+    margin-top: 2.8rem;
+    margin-bottom: 2.4rem;
+}
+.s-character .description .right{
+    display: flex;
+    align-items: center;
+}
+.s-character .description .right .text span{
+    display: block;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 140%;
+    max-width: 14.3rem;
+    margin-top: 2.2rem;
+}
+.s-character .slide-characters{
+    display: flex;
+}
+@media(max-width: 1200px){
+    .s-hero{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background-image: url("../assets/bg-hero.jpg");
+        background-repeat: no-repeat;
+        height: auto;
+        background-position-x: 87%;
+    }
+}
+@media(max-width: 991px){
+    
+}
+
+@media(max-width: 560px){
+    
+}

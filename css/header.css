@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    translate: 50%;
+}
+.consoles{
+    display: flex;
+    align-items: center;
+}
+.consoles span{
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+.consoles ul{
+    display: flex;
+    gap: .8rem;
+    margin-left: 1.8rem;
+}
+.consoles ul li{
+    padding: .4rem .8rem;
+    border: solid .15rem #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+@media(max-width: 670px){
+    header{
+        height: 7rem;
+    }
+    header .logo{
+        translate: 0 0;
+    }
+    header .consoles span{
+        display: none;
+    }
+}
